@@ -15,12 +15,8 @@ class Dog:
         return f"Dog Name: {self.name}, Age: {self.age}"
 
 
-# Main execution
 if __name__ == "__main__":
-    # Create a Dog object (e.g., Max, 5 years old based on the output example)
     my_dog = Dog("Max", 5)
-
-    # Call the methods to match the expected output
     my_dog.bark()
     my_dog.celebrate_birthday()
     print(my_dog.get_info())
